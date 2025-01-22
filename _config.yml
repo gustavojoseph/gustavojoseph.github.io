@@ -21,7 +21,7 @@ repository               : "gustavojoseph/gustavojoseph.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "perfil.JPG"
+  avatar           : "gustavo.JPG"
   name             : "Gustavo Joseph"
   pronouns         : # example: "she/her"  
   bio              : "Economista e Analista de Dados com formação em modelagem estatística e análise econômica"
