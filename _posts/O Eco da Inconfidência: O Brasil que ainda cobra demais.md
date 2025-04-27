@@ -1,6 +1,6 @@
 ---
 title: 'O Eco da Inconfidência: O Brasil que ainda cobra demais'
-  subtitle: 'Entre a pressão tributária do passado e os déficits do presente, um país que ainda tropeça no equilíbrio fiscal.'
+subtitle: 'Entre a pressão tributária do passado e os déficits do presente, um país que ainda tropeça no equilíbrio fiscal.'
 date: 2025-04-21
 permalink: /posts/blog-post-1/
 tags:
