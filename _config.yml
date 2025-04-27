@@ -24,7 +24,7 @@ author:
   avatar           : "gustavo.JPG"
   name             : "Gustavo Joseph"
   pronouns         : # example: "she/her"  
-  bio              : "Economista e Analista de Dados com formação em modelagem estatística e análise econômica"
+  bio              : "Economista e Analista de Dados, com foco em modelagem econométrica e análise econômica. Transformo dados em evidências analíticas para tomada de decisão."
   location         : "Minas Gerais"
   employer         : "Prefeitura Municipal de Curvelo"
   uri              : # URL
@@ -60,7 +60,7 @@ author:
   lastfm           : # Username
   linkedin         : "gustavojoseph-economista"
   mastodon         : # URL
-  medium           : # URL
+  medium           : "@gustavojosephr"
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
