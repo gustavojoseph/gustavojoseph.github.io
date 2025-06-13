@@ -1,6 +1,6 @@
 ---
 title: "Datação de Ciclos Econômicos com R: Aplicação ao PIB Brasileiro"
-excerpt: "Identificação de fases de expansão e recessão na economia brasileira por meio de técnicas de datação cíclica<br/><img src='/images/ciclos.png'>"
+excerpt: "Identificação de fases de expansão e recessão na economia brasileira por meio de técnicas de datação cíclica<br/><img src='/images/ciclos_capa.png'>"
 collection: portfolio
 ---
 
