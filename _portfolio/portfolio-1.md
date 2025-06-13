@@ -160,12 +160,12 @@ dados |>
 ```
 
 <p align="center">
-  <img src="/images/ciclos.png" alt="descrição da imagem"><br>
+  <img src="/images/ciclos.png" alt="descrição da imagem">
 
 A identificação dos ciclos econômicos é essencial não apenas para estudos empíricos da macroeconomia, mas também para decisões estratégicas públicas e privadas. Ao aplicar o método de **Harding e Pagan (2002)** sobre a série trimestral do PIB brasileiro, é possível obter uma representação clara dos momentos de recessão da economia. Empresas, formuladores de política e analistas econômicos podem utilizar essas informações para avaliar riscos, antecipar tendências e alinhar estratégias a contextos mais ou menos favoráveis do ciclo econômico.
 
 #### Referências
 
-Burns, Arthur F. & Mitchell, Wesley C., (1946). Measuring Business Cycles. National Bureau of Economic Research, Inc, https://EconPapers.repec.org/RePEc:nbr:nberbk:burn46-1.
+1. Burns, Arthur F. & Mitchell, Wesley C., (1946). Measuring Business Cycles. National Bureau of Economic Research, Inc, https://EconPapers.repec.org/RePEc:nbr:nberbk:burn46-1.
 
-Harding, D., & Pagan, A. (2002). Dissecting the cycle: a methodological investigation. Journal of monetary economics, 49(2), 365-381.
+2. Harding, D., & Pagan, A. (2002). Dissecting the cycle: a methodological investigation. Journal of monetary economics, 49(2), 365-381.
