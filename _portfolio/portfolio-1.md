@@ -1,5 +1,5 @@
 ---
-title: "Datação de Ciclos Econômicos com R: Aplicação ao PIB Brasileiro"
+title: "Datação de Ciclos Econômicos na economia brasileira com R"
 excerpt: "Identificação de fases de expansão e recessão na economia brasileira por meio de técnicas de datação cíclica<br/><img src='/images/ciclos_capa.png'>"
 collection: portfolio
 ---
@@ -18,7 +18,7 @@ A principal vantagem do método é a entrega de pontos de reversão claros e gr�
 
 Para exemplificar a aplicação do algoritmo de Harding e Pagan, foi utilizada a série trimestral do PIB com ajuste sazonal, disponibilizada pelo **SIDRA/IBGE**. A seguir, apresenta-se o código completo utilizado na extração, transformação, datação e visualização dos ciclos econômicos.
 
-#### 1. Carregamento dos Pacotes
+### 1. Carregamento dos Pacotes
 ```R
 library(tidyverse)  # Tratamento e visdualização dos dados
 library(BCDating)   # Algoritmo BBQ
@@ -26,7 +26,7 @@ library(sidrar)     # Acesso ao SIDRA/IBGE
 library(tsibble)    # Manipulação tidy de séries temporais
 ```
 
-#### 2. Extração e Tratamento dos Dados
+### 2. Extração e Tratamento dos Dados
 A série utilizada é a Tabela 1621 do SIDRA, que fornece o índice encadeado do volume do PIB trimestral com ajuste sazonal.
 
 ```R
@@ -44,7 +44,7 @@ dados <- sidrar::get_sidra(api = "/t/1621/n1/all/v/all/p/all/c11255/90707/d/v584
   dplyr::mutate(ln_pib = log(pib))
 ```
 
-#### 3. Conversão para Série Temporal
+### 3. Conversão para Série Temporal
 Para aplicar o algoritmo de datação, a série é transformada em um objeto do tipo `ts` com frequência trimestral:
 
 ```R
@@ -55,7 +55,7 @@ dados_ts <- tsibble::ts(
 )
 ```
 
-#### 4. Datação dos Ciclos Econômicos
+### 4. Datação dos Ciclos Econômicos
 Aplicamos o algoritmo BBQ, com parâmetros que impõem uma duração mínima para fases e ciclos:
 
 ```R
@@ -95,7 +95,7 @@ No que diz respeito às recessões, foram identificados cinco episódios, com du
 
 Essa assimetria, com expansões longas e recessões curtas, é típica de economias com certa resiliência macroeconômica. No entanto, a baixa amplitude observada tanto nas altas quanto nas quedas aponta para um ciclo econômico com volatilidade reduzida, pelo menos no agregado. Isso não significa, contudo, que os efeitos distributivos e setoriais sejam igualmente suaves: a média esconde as disparidades regionais e os impactos desiguais entre setores da economia. Por isso, a leitura dos ciclos deve ser sempre complementada por análises qualitativas e estruturais.
 
-#### 5. Visualização dos Resultados
+### 5. Visualização dos Resultados
 O gráfico abaixo apresenta o PIB brasileiro com sombreamento dos períodos de recessão identificados pelo algoritmo:
 
 ```R
@@ -161,12 +161,10 @@ dados |>
 
   <img src="/images/ciclos.png" alt="descrição da imagem">
   
-
-
 A identificação dos ciclos econômicos é essencial não apenas para estudos empíricos da macroeconomia, mas também para decisões estratégicas públicas e privadas. Ao aplicar o método de **Harding e Pagan (2002)** sobre a série trimestral do PIB brasileiro, é possível obter uma representação clara dos momentos de recessão da economia. Empresas, formuladores de política e analistas econômicos podem utilizar essas informações para avaliar riscos, antecipar tendências e alinhar estratégias a contextos mais ou menos favoráveis do ciclo econômico.
 
-#### Referências
+### Referências
 
-1. Burns, Arthur F. & Mitchell, Wesley C., (1946). Measuring Business Cycles. National Bureau of Economic Research, Inc, https://EconPapers.repec.org/RePEc:nbr:nberbk:burn46-1.
+1. Burns, Arthur F. & Mitchell, Wesley C., (1946). Measuring Business Cycles. National Bureau of Economic Research, Inc, <https://EconPapers.repec.org/RePEc:nbr:nberbk:burn46-1>.
 
 2. Harding, D., & Pagan, A. (2002). Dissecting the cycle: a methodological investigation. Journal of monetary economics, 49(2), 365-381.
