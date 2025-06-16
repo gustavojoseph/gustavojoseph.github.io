@@ -14,13 +14,13 @@ Embora existam diversas abordagens para a identificação e a datação dos cicl
 
 A principal vantagem do método é a entrega de pontos de reversão claros e gráficos, tornando-o amplamente utilizado por instituições como a OCDE e o Banco Central Europeu. No Brasil, o método é utilizado em estudos complementares ao trabalho do **CODACE (Comitê de Datação de Ciclos Econômicos)**, coordenado pela FGV/IBRE.
 
-## Aplicação Empírica: PIB Brasileiro
+## Aplicação em R: PIB Brasileiro
 
 Para exemplificar a aplicação do algoritmo de Harding e Pagan, foi utilizada a série trimestral do PIB com ajuste sazonal, disponibilizada pelo **SIDRA/IBGE**. A seguir, apresenta-se o código completo utilizado na extração, transformação, datação e visualização dos ciclos econômicos.
 
 ### 1. Carregamento dos Pacotes
 ```R
-library(tidyverse)  # Tratamento e visdualização dos dados
+library(tidyverse)  # Tratamento e visualização dos dados
 library(BCDating)   # Algoritmo BBQ
 library(sidrar)     # Acesso ao SIDRA/IBGE
 library(tsibble)    # Manipulação tidy de séries temporais
