@@ -1,6 +1,6 @@
 ---
 title: "Política Monetária Brasileira: Uma Análise dos Períodos Contracionistas e Expansionistas"
-excerpt: "Estimando o Juro Neutro e o Juro Real com Dados do Boletim Focus <br/><img src='/images/capa_pol.monetaria.png'>"
+excerpt: "Estimando o Juro Neutro e o Juro Real com Dados do Boletim Focus <br/><img src='/images/capa_teste.png'>"
 collection: portfolio
 ---
 
