@@ -1,6 +1,6 @@
 ---
 title: "Política Monetária Brasileira: Uma Análise dos Períodos Contracionistas e Expansionistas"
-excerpt: "Estimando o Juro Neutro e o Juro Real com Dados do Boletim Focus <br/><img src='/images/capa_pom.monetaria.png'>"
+excerpt: "Estimando o Juro Neutro e o Juro Real com Dados do Boletim Focus <br/><img src='/images/capa_pol.monetaria.png'>"
 collection: portfolio
 ---
 
@@ -208,7 +208,7 @@ pol_monetaria |>
   )
 ```
 
-  <img src="/images/pol_monetaria.png" alt="descrição da imagem">
+  <img src="/images/grafico_pol.monetaria.png" alt="descrição da imagem">
 
 O gráfico final sintetiza toda a lógica construída ao longo da análise. A **área sombreada em vermelho** representa os períodos em que o juro real superou o juro neutro, caracterizando um regime de **política contracionista**. Já a **área sombreada em azul** corresponde aos períodos em que o juro real ficou abaixo do juro neutro, sinalizando um ambiente de **política expansionista**.
 
