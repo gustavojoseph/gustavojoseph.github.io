@@ -111,7 +111,7 @@ juro_real <- dplyr::left_join(ipca_12m, swaps, by = "data") |>
   )
 ```
 
-### 7. Consolidação: Política Monetária
+### 7. Classificação da Política Monetária
 
 Nesta etapa, a política monetária é classificada a cada ponto da série temporal como expansionista ou contracionista, de acordo com a relação entre os juros estimados:
 
@@ -145,7 +145,7 @@ Abaixo a saída das dez primeiras linhas da tabela.
 | 2016-02-01 | 5.72             | 7.15           | Contracionista   | 0      |
 | 2016-03-01 | 5.71             | 6.74           | Contracionista   | 0      |
 
-### 8. Visualização: Regimes de Política Monetária
+### 8. Visualização dos Regimes de Política Monetária
 
 O gráfico final compara as duas taxas ao longo do tempo. A área sombreada destaca visualmente os momentos em que a política monetária operou acima ou abaixo da taxa neutra, facilitando a leitura do regime em cada período.
 
