@@ -1,6 +1,6 @@
 ---
 title: "Política Monetária Brasileira: Uma Análise dos Períodos Contracionistas e Expansionistas"
-excerpt: "Estimando o Juro Neutro e o Juro Real com Dados do Boletim Focus <br/><img src='/images/500x300.png'>"
+excerpt: "Estimando o Juro Neutro e o Juro Real com Dados do Boletim Focus <br/><img src='/images/capa_pom.monetaria.png'>"
 collection: portfolio
 ---
 
@@ -33,7 +33,7 @@ A seguir, será realizada a aplicação prática da metodologia de estimativa do
 ### 1. Carregamento dos Pacotes
 ```R
 library(rbcb)       # Acesso às séries temporais do BCB
-library(ipeadatar)  # Acesso à séries econômicas do Ipea
+library(ipeadatar)  # Acesso às séries temporais do Ipea
 library(tsibble)    # Manipulação de séries temporais
 library(tidyverse)  # Manipulação e visualização de dados
 ```
