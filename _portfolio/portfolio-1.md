@@ -1,6 +1,6 @@
 ---
-title: "Datação de Ciclos Econômicos na economia brasileira com R"
-excerpt: "Identificação de fases de expansão e recessão na economia brasileira por meio de técnicas de datação cíclica<br/><img src='/images/ciclos_capa.png'>"
+title: "Datação de Ciclos Econômicos na Economia Brasileira"
+excerpt: "Identificação de fases de expansão e recessão na economia brasileira por meio de técnicas de datação cíclica<br/><img src='/images/capa_ciclos.png'>"
 collection: portfolio
 ---
 
@@ -159,7 +159,7 @@ dados |>
   )
 ```
 
-  <img src="/images/ciclos.png" alt="descrição da imagem">
+  <img src="/images/grafico_ciclos.png" alt="descrição da imagem">
   
 A identificação dos ciclos econômicos é essencial não apenas para estudos empíricos da macroeconomia, mas também para decisões estratégicas públicas e privadas. Ao aplicar o método de **Harding e Pagan (2002)** sobre a série trimestral do PIB brasileiro, é possível obter uma representação clara dos momentos de recessão da economia. Empresas, formuladores de política e analistas econômicos podem utilizar essas informações para avaliar riscos, antecipar tendências e alinhar estratégias a contextos mais ou menos favoráveis do ciclo econômico.
 
